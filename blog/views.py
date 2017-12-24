@@ -13,6 +13,7 @@ from datetime import datetime as dt
 import time
 
 
+
 class Index(ListView):
 
     queryset = Blog.objects.all().filter(pk__gte = 2).order_by('-id')
@@ -72,3 +73,10 @@ def run_process(request):
         res = name + '_' + time
 
         return JsonResponse({'time': res})
+
+
+def check(request):
+
+    template_name = 'blog/check.html'
+
+    return render(request, template_name)

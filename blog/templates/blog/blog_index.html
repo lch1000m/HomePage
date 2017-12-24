@@ -6,6 +6,16 @@
 <script type="text/javascript" src="{% static 'js/jquery-latest.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/jquery.tablesorter.js' %}"></script>
 
+<style>
+    h4{
+        color:black;
+    }
+    .myh4{
+        color:red;
+    }
+</style>
+
+
 <h1>Table here!</h1>
 
 <h3>option</h3>
@@ -18,6 +28,8 @@
 <br><br>
 
 <button type="button" id="execute_script" class="btn btn-primary">Execute Program!</button>
+
+<button type="button" id="color_change" class="btn btn-primary">Color Change!</button>
 <br><br>
 
 <h4 id="paragraph"></h4>
@@ -96,15 +108,20 @@
             success: function (data) {
                 $("#paragraph").show();
                 $("#paragraph").text(data.time);
+
             },
             error: function () {
                 alert('Error Occurred!')
             }
         })
     });
+
     $(document).ready(function () {
-            $("#mytable").tablesorter();
-            $("#paragraph").hide();
-        }
-    );
+        $("#mytable").tablesorter();
+        $("#paragraph").hide();
+
+        $(color_change).click(function () {
+            $("#paragraph").attr('class','myh4');
+        });
+    });
 </script>

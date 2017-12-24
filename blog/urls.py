@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from .views import Index, IndexForm, run_process, Detail
+from .views import Index, IndexForm, run_process, Detail, check
 from .models import Blog
 
 
@@ -26,4 +26,6 @@ urlpatterns = [
     url(r'^index/(?P<pk>\d+)/$', Detail.as_view(), name='detail'),
     url(r'^form/$', IndexForm.as_view()),
     url(r'^run_process/$', run_process),
+
+    url(r'^check/$', check),
 ]
