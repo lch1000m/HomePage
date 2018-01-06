@@ -1,0 +1,24 @@
+{% extends 'template_inheritance/base.html' %}
+
+{% block title %}New Title{% endblock %}
+
+
+{% block body %}
+
+    {% block float_right %}{% endblock %}
+    {{ block.super }} {# import base template contents #}
+
+    <h1 class="main">New contents added</h1>
+
+{% endblock %}
+
+
+{% block style %}
+    {{ block.super }}
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+
+{% endblock %}

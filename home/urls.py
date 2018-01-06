@@ -21,4 +21,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include('blog.urls')),
+    url(r'^form_test/', include('form_test.urls')),
+    url(r'^bootstrap/', include('bootstrap.urls')),
+    url(r'^template_inheritance/', include('template_inheritance.urls')),
 ]

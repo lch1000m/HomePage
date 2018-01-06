@@ -64,7 +64,6 @@ class Detail(DetailView):
     context_object_name = 'my_table'
 
 
-
 def run_process(request):
     if request.method == 'GET':
         name = request.GET['name']
@@ -73,6 +72,13 @@ def run_process(request):
         res = name + '_' + time
 
         return JsonResponse({'time': res})
+
+
+def dataTable(request):
+
+    template_name = 'blog/dataTable.html'
+
+    return render(request, template_name)
 
 
 def check(request):

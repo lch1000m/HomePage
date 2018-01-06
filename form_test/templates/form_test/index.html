@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {#  jquery CDN  #}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+{#    bootstrap CDN  #}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    {% load staticfiles %}
+{#    jquery local file  #}
+
+{#    bootstrap local file  #}
+{#    <link rel="stylesheet" href="{% static 'css\bootstrap-4.0.0-beta.3-dist\css\bootstrap.css' %}">#}
+
+
+</head>
+
+
+<body>
+
+
+<form action="../login_check/">
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>Login Form</h1>
+        </div>
+
+        <div class="input-group form-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="username" type="text" class="form-control" name="username" placeholder="username">
+        </div>
+        <div class="input-group form-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <br>
+        <div class="input-group form-group">
+            <span class="input-group-addon">Text</span>
+            <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+        </div>
+        <div class="input-group form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+</body>
+
+
+</html>

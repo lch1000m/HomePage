@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'blog.apps.BlogConfig',
+    'form_test.apps.FormTestConfig',
+    'bootstrap.apps.BootstrapConfig',
+    'template_inheritance.apps.TemplateInheritanceConfig',
 ]
 
 MIDDLEWARE = [
@@ -124,3 +127,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+SESSION_COOKIE_AGE = 5*60

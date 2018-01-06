@@ -1,0 +1,44 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% block head %}
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Title{% endblock %}</title>
+
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+{% endblock %}
+
+<body>
+
+{% block body %}
+
+    {% block float_right %}
+        {% include 'template_inheritance/sample.html' %}
+    {% endblock %}
+    <h1 class="main">This is body!</h1>
+{% endblock %}
+
+</body>
+
+{% block style %}
+<style>
+        h1 {
+            color: red;
+        }
+
+        .right-side {
+            background-color: yellow;
+            float: right;
+        }
+
+        body{
+            margin-left: 10%;
+        }
+</style>
+{% endblock %}
+
+</html>
