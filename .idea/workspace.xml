@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a05f15-218e-4046-a3b7-753d377a4490" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/jquery.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/modal.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/toggle_button.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bootstrap/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/form_test/templates/form_test/dropdown.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/form_test/templates/form_test/form_action.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/form_test/templates/form_test/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/form_test/templates/form_test/login_check.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/form_test/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template_inheritance/static/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template_inheritance/templates/template_inheritance/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template_inheritance/templates/template_inheritance/child.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template_inheritance/templates/template_inheritance/sample.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template_inheritance/urls.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/home.iml" afterPath="$PROJECT_DIR$/.idea/home.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_detail.html" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blog_index.html" afterPath="$PROJECT_DIR$/blog/templates/blog/blog_index.html" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/check.html" afterPath="$PROJECT_DIR$/blog/templates/blog/check.html" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/home/settings.py" afterPath="$PROJECT_DIR$/home/settings.py" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" afterPath="$PROJECT_DIR$/home/urls.py" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html" afterPath="$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,11 +46,11 @@
           <splitter split-orientation="horizontal" split-proportion="0.5">
             <split-first>
               <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                <file leaf-file-name="thumnail.html" pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html">
+                <file leaf-file-name="grid_layout.html" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="399">
-                        <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+                      <state relative-caret-position="741">
+                        <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
                         <folding />
                       </state>
                     </provider>
@@ -87,11 +60,11 @@
             </split-first>
             <split-second>
               <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                <file leaf-file-name="form.html" pinned="false" current-in-tab="true">
-                  <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/form.html">
+                <file leaf-file-name="thumnail.html" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html">
                     <provider selected="true" editor-type-id="text-editor">
-                      <state relative-caret-position="494">
-                        <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                      <state relative-caret-position="285">
+                        <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
                         <folding />
                       </state>
                     </provider>
@@ -123,7 +96,7 @@
                   <entry file="file://$PROJECT_DIR$/template_inheritance/static/css/style.css">
                     <provider selected="true" editor-type-id="text-editor">
                       <state relative-caret-position="114">
-                        <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                        <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                         <folding />
                       </state>
                     </provider>
@@ -137,7 +110,7 @@
                   <entry file="file://$PROJECT_DIR$/home/urls.py">
                     <provider selected="true" editor-type-id="text-editor">
                       <state relative-caret-position="513">
-                        <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                        <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                         <folding />
                       </state>
                     </provider>
@@ -157,8 +130,8 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
-                  <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="38">
+                  <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -171,8 +144,8 @@
           <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+                <state relative-caret-position="418">
+                  <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -243,7 +216,6 @@
         <option value="$PROJECT_DIR$/form_test/templates/form_test/driodown.html" />
         <option value="$PROJECT_DIR$/form_test/views.py" />
         <option value="$PROJECT_DIR$/../../Bootstrap Book/ch03/dropdown.html" />
-        <option value="$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html" />
         <option value="$PROJECT_DIR$/bootstrap/templates/bootstrap/toggle_button.html" />
         <option value="$PROJECT_DIR$/bootstrap/templates/bootstrap/modal.html" />
         <option value="$PROJECT_DIR$/form_test/templates/form_test/dropdown.html" />
@@ -262,6 +234,7 @@
         <option value="$PROJECT_DIR$/bootstrap/views.py" />
         <option value="$PROJECT_DIR$/bootstrap/urls.py" />
         <option value="$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html" />
+        <option value="$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html" />
       </list>
     </option>
   </component>
@@ -293,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -365,6 +337,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -579,7 +552,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17777778" sideWeight="0.45606062" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17777778" sideWeight="0.45606062" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -727,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,13 +716,6 @@
         <state relative-caret-position="494">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -814,25 +779,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html" />
     <entry file="file://$PROJECT_DIR$/static/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/home/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template_inheritance/templates/template_inheritance/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,42 +814,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template_inheritance/templates/template_inheritance/child.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/grid_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html">
+    <entry file="file://$PROJECT_DIR$/home/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="1862">
+          <caret line="98" column="5" lean-forward="false" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -903,7 +847,23 @@
     <entry file="file://$PROJECT_DIR$/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/templates/bootstrap/thumnail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -911,7 +871,15 @@
     <entry file="file://$PROJECT_DIR$/template_inheritance/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
